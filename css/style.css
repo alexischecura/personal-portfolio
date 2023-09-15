@@ -1,0 +1,39 @@
+/* ************ */
+/*    Header    */
+/* ************ */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
+  width: 120rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.link-logo:link,
+.link-logo:visited {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.logo-alt {
+  color: #e6c365;
+}
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
